@@ -32,7 +32,7 @@ class _StocksListPageState extends State<StocksListPage> {
 
   Future<void> fetchStocks() async {
     final String apiUrl =
-        "https://financialmodelingprep.com/api/v3/stock/list?apikey=0lkDQ0T5fKjLrjhYZuWZKENjIbogLCxU";
+        "https://financialmodelingprep.com/api/v3/stock/list?apikey=YOUR_KEY";
 
     var response = await http.get(Uri.parse(apiUrl));
 
